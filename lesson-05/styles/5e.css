@@ -1,0 +1,39 @@
+p {
+  text-align: center;
+  font-family: Arial;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.new-text {
+  color: rgb(245, 99, 0);
+}
+.item-name {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.descrip-text {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 5px;
+
+}
+.item-price {
+  margin-top: 25px;
+}
+.buy-button {
+background-color: rgb(0, 113, 227);
+border-style: none;
+color: white;
+font-weight: bold;
+font-size: 15px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 30px;
+cursor: pointer;
+}
+.buy {
+  margin-top: 25px;
+}

@@ -1,0 +1,26 @@
+p {
+  font-family: Arial;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.shopping-text {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+
+}
+.apple-text {
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+.learn-text {
+  color: rgb(58, 108, 199);
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+.link-to-more:hover {
+  text-decoration: underline;
+}

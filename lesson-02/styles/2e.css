@@ -1,0 +1,23 @@
+.apply-on-company-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 36px;
+  border-style: none;
+  width: 260px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.save-button {
+  height: 36px;
+  width: 80px;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  color: rgb(10, 102, 194);
+  border-radius: 18px;
+  border-width: 1px;
+  font-size: 17px;
+  font-weight: bold;
+}

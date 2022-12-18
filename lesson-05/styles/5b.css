@@ -1,0 +1,12 @@
+.arial-text {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 0px;
+}
+.notice-text {
+  font-family: Arial;
+  margin-top: 8px;
+  color: red;
+  font-style: italic;
+}
