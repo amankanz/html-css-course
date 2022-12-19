@@ -1,0 +1,39 @@
+p {
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.text-box {
+  padding-right: 190px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 16px;
+  border-style: solid;
+  border-color: rgb(100, 100, 100);
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+.disclaimer {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.agree-join-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border-style: none;
+  border-radius: 30px;
+  font-size: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 400px;
+  cursor: pointer;
+}
+.agree-join-button:hover {
+ opacity: 0.8;
+}
