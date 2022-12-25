@@ -1,0 +1,78 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial;
+}
+.facebook-account {
+  width: 200px;
+  display: inline-block;
+  
+  margin-left: 15px;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+  vertical-align: top;
+
+}
+.thumbnail-row {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 12px;
+  
+}
+.account-info {
+  width: 200px;
+  
+}
+
+.mutual-friend-image {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  
+  vertical-align: middle;
+  margin-right: 4px;
+  
+}
+
+.mutual-friend-info {
+  display: inline-block;
+  vertical-align: middle;
+  
+  color: rgb(100, 100, 100);
+  
+  font-size: 15px;
+
+}
+.account-name, 
+.mutual-friend-row,
+.add-friend-button {
+  margin-left: 8px;
+  
+}
+
+.mutual-friend-row {
+  
+  margin-bottom: 10px;
+}
+
+.account-name {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+  
+}
+
+.add-friend-button {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  
+  font-size: 16px;
+  cursor: pointer;
+}
