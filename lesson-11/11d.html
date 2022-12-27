@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook grid practice</title>
+  <style>
+    .facebook-accounts {
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      column-gap: 15px;
+    }
+    .facebook-user {
+      border: none;
+      border-width: 1px;
+      height: 330px;
+      box-shadow: 0 1px 5px rgba(1, 1, 1, 0.3);
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-family: Arial;
+    }
+    .account {
+      background-color: lightpink;
+      height: 100px;
+    }
+    .profile-picture {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .account-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+    .mutual-friends-section {
+      
+      display: grid;
+      grid-template-columns: 50px 1fr;
+      height: 40px;
+      
+      align-items: center;
+    }
+    
+    .mutual-friend-image {
+      width: 42px;
+      height: 42px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 21px;
+    }
+    .mutual-friend-status {
+      color: rgb(87, 87, 87);
+      font-size: 16px;
+      
+    }
+   
+    .add-friend-button {
+      background-color: rgb(0, 102, 255);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 4px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .account-name,
+    .mutual-friends-section,
+    .add-friend-button {
+      margin-left: 8px;
+    }
+  </style>
+</head>
+<body style="padding-bottom: 1000px;">
+  <div class="facebook-accounts">
+    <div class="facebook-user">
+      <div class="account">
+        <img src="../lesson-07/thumbnails/hq720.webp" alt="" class="profile-picture">
+        <p class="account-name">Dina Aman</p>
+        <div class="mutual-friends-section">
+          <div class="mutual-friend-picture">
+            <img src="../lesson-07/thumbnails/hq720 (1).webp" alt="" class="mutual-friend-image">
+          </div>
+          <div class="mutual-friend-stats">
+            <p class="mutual-friend-status">2 mutual friends</p>
+          </div>
+        </div>
+        <button class="add-friend-button">Add Friend</button>
+      </div>
+    </div>
+
+    
+
+
+    <div class="facebook-user">
+      <div class="account">
+        <img src="../lesson-07/thumbnails/hq720 (1).webp" alt="" class="profile-picture">
+        <p class="account-name">Zhan Aman</p>
+        <div class="mutual-friends-section">
+          <div class="mutual-friend-picture">
+            <img src="../lesson-07/thumbnails/hq720.webp" alt="" class="mutual-friend-image">
+          </div>
+          <div class="mutual-friend-stats">
+            <p class="mutual-friend-status">3 mutual friends</p>
+          </div>
+        </div>
+        <button class="add-friend-button">Add Friend</button>
+      </div>
+    </div>
+
+
+    <div class="facebook-user">
+      <div class="account">
+        <img src="../lesson-07/thumbnails/joma.webp" alt="" class="profile-picture">
+        <p class="account-name">Joma Aman</p>
+        <div class="mutual-friends-section">
+          <div class="mutual-friend-picture">
+            <img src="../lesson-07/thumbnails/hq720.webp" alt="" class="mutual-friend-image">
+          </div>
+          <div class="mutual-friend-stats">
+            <p class="mutual-friend-status">4 mutual friends</p>
+          </div>
+        </div>
+        <button class="add-friend-button">Add Friend</button>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
