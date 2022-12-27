@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlexBox Practice</title>
+  <style>
+    .account-section {
+      display: flex;
+      flex-direction: row;
+    }
+    .picture {
+      background-color: lightblue;
+      width: 60px;
+
+    }
+    .account-image {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 30px;
+    }
+    .profile {
+      background-color: lightpink;
+      width: 160px;
+
+    }
+    .button {
+      background-color: lightblue;
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="account-section">
+    <div class="picture">
+      <img src="../lesson-07/thumbnails/hq720.webp" alt="" class="account-image">
+    </div>
+    <div class="profile">name</div>
+    <div class="button">follow-button</div>
+  </div>
+</body>
+</html>

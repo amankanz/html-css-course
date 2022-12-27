@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Practice</title>
+  <style>
+    .header {
+      display: flex;
+      flex-direction: row;
+    }
+    .left-div {
+      background-color: lightblue;
+      width: 50px;
+    }
+    .middle-div {
+      background-color: lightpink;
+      flex: 1;
+    }
+    .right-div {
+      background-color: lightblue;
+      width: 75px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="left-div">item1</div>
+    <div class="middle-div">item2</div>
+    <div class="right-div">item3</div>
+  </div>
+</body>
+</html>
