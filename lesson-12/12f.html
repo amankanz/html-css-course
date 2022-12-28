@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Practice</title>
+  <style>
+    p {
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: white;
+      font-weight: bold;
+    }
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(115, 14, 209);
+      height: 50px;
+      www
+
+    }
+    .home-section {
+      
+      margin-left: 15px;
+      cursor: pointer;
+    }
+    
+    .search-section {
+     
+      display: flex;
+      
+    }
+    .search-box {
+      width: 1000px;
+      max-width: 380px;
+      padding: 6px 16px;
+      border-radius: 30px;
+      border: none;
+    }
+    .download-section {
+      
+      margin-right: 10px;
+    }
+    .download-button {
+      padding: 8px 16px;
+      background-color: rgb(115, 14, 209);
+      color: white;
+      border-color: white;
+      border-style: solid;
+      border-radius: 3px;
+      border-width: 1px;
+      cursor: pointer;
+
+    }
+    .download-button:hover {
+      background-color: rgb(160, 93, 223);
+      
+    }
+    .download-button:active {
+      opacity: 0.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="home-section">
+      <p>Home</p>
+    </div>
+    <div class="search-section">
+      <input type="text" placeholder="Search" class="search-box">
+    </div>
+    <div class="download-section">
+      <button class="download-button">Download</button>
+    </div>
+  </div>
+</body>
+</html>
