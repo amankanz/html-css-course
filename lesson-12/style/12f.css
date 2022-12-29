@@ -1,0 +1,48 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(120, 82, 178);
+  padding: 0px 15px;
+  
+}
+.home-section {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-box {
+  width: 500px;
+  height: 30px;
+  padding-left: 20px;
+  border-radius: 15px;
+  border: none;
+  margin: 12px 0px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: rgb(120, 82, 178);
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  cursor: pointer;
+
+}
+button:hover {
+  background-color: rgb(160, 93, 223);
+  
+}
+button:active {
+  opacity: 0.4;
+}
