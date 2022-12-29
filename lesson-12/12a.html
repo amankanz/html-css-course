@@ -6,23 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flexbox Practice</title>
   <style>
-    .div-1 {
+    .flexbox {
+      display: flex;
+    flex-direction: row;
+    }
+    .lightblue {
       background-color: lightblue;
+      
+    }
+    .item1 {
       width: 200px;
     }
-    .div-2 {
+    .lightpink {
       background-color: lightpink;
+      
+    }
+    .item2 {
       width: 75px;
     }
   </style>
 </head>
 <body>
-  <div style="
-    display: flex;
-    flex-direction: row;
-  ">
-    <div class="div-1">200px</div>
-    <div class="div-2">200px</div>
+  <div class="flexbox">
+    <div class="lightblue item1">200px</div>
+    <div class="lightpink item2">200px</div>
   </div>
   
 </body>

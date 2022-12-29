@@ -6,74 +6,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flexbox Practice</title>
   <style>
-    p {
+    div {
       font-family: Arial;
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-    .section,
-    .message-section {
-      display: flex;
-      flex-direction: row;
       
-      margin-bottom: 10px;
-      width: 300px;
-      justify-content: space-between;
-    }
-    .message-section {
-      margin-bottom: 0;
-    }
-    .item {
-      width: 200px;
-    }
-    .notification {
-      background-color: rgb(0, 102, 255);
-      color: white;
-      padding: 2px 12px;
-      border-radius: 12px;
-      font-weight: bold;
     }
     .container {
-      display: flex;
-      flex-direction: column;
+     border-width: 1px;
+     border-style: solid;
+     border-color: rgb(200, 200, 200);
+     width: 300px;
+     border-radius: 6px;
       
-      width: 300px;
-      padding: 10px 10px;
-      border-radius: 7px;
-      box-shadow: 0 1px 5px rgba(1, 1, 1, 0.3);
     }
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 12px;
+    }
+    
+    .notification {
+      background-color: rgb(49, 109, 245);
+      color: white;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    
   </style>
 </head>
 <body>
-<div class="container">
-  <div class="section">
-    <div class="item">
-      <p>Home</p>
+  <div class="container">
+    <div class="flexbox">
+      <div>Home</div>
+      <div class="notification">
+        14
+      </div>
     </div>
-    <div class="notification">
-      <p>14</p>
-    </div>
-  </div>
 
-  <div class="section">
-    <div class="item">
-      <p>Notifications</p>
+    <div class="flexbox">
+      <div>Notifications</div>
+      <div class="notification">
+        3
+      </div>
     </div>
-    <div class="notification">
-      <p>3</p>
+ 
+    <div class="flexbox">
+      <div>Messages</div>
+      <div class="notification">
+        5
+      </div>
     </div>
-  </div>
-
-  <div class="message-section">
-    <div class="item">
-      <p>Messages</p>
-    </div>
-    <div class="notification">
-      <p>5</p>
-    </div>
-</div>
-
-  
   </div>
 </body>
 </html>

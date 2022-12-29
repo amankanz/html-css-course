@@ -11,50 +11,47 @@
       margin-top: 0;
       margin-bottom: 0;
       color: white;
-      font-weight: bold;
+      
     }
     .header {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      background-color: rgb(115, 14, 209);
-      height: 50px;
+      background-color: rgb(120, 82, 178);
+      padding: 0px 15px;
+      
     }
     .home-section {
-      margin-left: 15px;
       cursor: pointer;
+      font-weight: bold;
     }
     
-    .search-section {
-      display: flex;
-    }
     .search-box {
-      width: 1000px;
-      max-width: 380px;
-      padding: 6px 16px;
-      border-radius: 30px;
+      width: 500px;
+      height: 30px;
+      padding-left: 20px;
+      border-radius: 15px;
       border: none;
+      margin: 12px 0px;
     }
-    .download-section {
-      margin-right: 10px;
-    }
-    .download-button {
-      padding: 8px 16px;
-      background-color: rgb(115, 14, 209);
+
+    button {
+      padding: 8px 15px;
+      background-color: rgb(120, 82, 178);
       color: white;
       border-color: white;
       border-style: solid;
-      border-radius: 3px;
+      border-radius: 2px;
       border-width: 1px;
       cursor: pointer;
 
     }
-    .download-button:hover {
+    button:hover {
       background-color: rgb(160, 93, 223);
       
     }
-    .download-button:active {
+    button:active {
       opacity: 0.4;
     }
   </style>
@@ -68,7 +65,7 @@
       <input type="text" placeholder="Search" class="search-box">
     </div>
     <div class="download-section">
-      <button class="download-button">Download</button>
+      <button>Download</button>
     </div>
   </div>
 </body>
