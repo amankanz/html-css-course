@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position Fisxed Practice</title>
+  <style>
+    body {
+
+    }
+    .info-sidebar {
+      background-color: rgb(70, 70, 70);
+      color: white;
+
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 200px;
+      margin-left: 100px;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .title-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      
+      font-family: Arial;
+    }
+    .plus-icon {
+      font-size: 30px;
+      color: rgb(170, 170, 170);
+      cursor: pointer;
+    }
+    .title {
+      font-size: 14px;
+    }
+    p {
+      font-family: Arial;
+      color: rgb(170, 170, 170);
+      cursor: pointer;
+    }
+    
+
+    .image-sidebar {
+      background-color: rgb(51, 51, 51);
+      color: white;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100px;
+      padding-top: 20px;
+    }
+
+    .discord-image {
+      height: 60px;
+      width: 60px;
+      object-fit: cover;
+      border-radius: 30px;
+      margin-bottom: 10px;
+      cursor: pointer;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="info-sidebar">
+    <div class="title-section">
+      <div class="title">INFO</div>
+      <div>
+        <span class="plus-icon">&#43;</span>
+      </div>
+      
+    </div>
+    <p>&#35; new-videos</p>
+    <p>&#35; updates</p>
+    <p>&#35; faq</p>
+    
+  </div>
+  <div class="image-sidebar">
+    <img src="../lesson-07/thumbnails/hq720.webp" alt="" class="discord-image">
+    <img src="../lesson-07/thumbnails/hq720 (1).webp" alt="" class="discord-image">
+    <img src="../lesson-07/thumbnails/joma.webp" alt="" class="discord-image">
+  </div>
+</body>
+</html>

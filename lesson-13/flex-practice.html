@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex-Practice</title>
+  <style>
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+      
+      vertical-align: middle;
+    }
+    .container {
+      background-color: lightblue;
+      border-style: solid;
+      border-width: 2px;
+      border-color: red;
+      width: 400px;
+      border-radius: 20px;
+      margin-top: 20px;
+
+    }
+
+    .container-3 {
+      background-color: gray;
+      border-style: solid;
+      border-width: 2px;
+      border-color: red;
+      width: 300px;
+      height: 100px;
+      border-radius: 20px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: end;
+      align-items: stretch;
+
+    }
+    .division-1 {
+      background-color: lightpink;
+      width: 200px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .division-2 {
+      background-color: lightgreen;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="./13f-design-from-twitter/backend-super-simple-dev-tutorial.webp" alt="">
+    <p>youtube</p>
+    <p>Backend web development -a complete overview (2021)</p>
+  </div>
+
+
+  <div class="container">
+    <img src="./13f-design-from-twitter/backend-super-simple-dev-tutorial.webp" alt="">
+    <div>youtube</div>
+    <div>Backend web development -a complete overview (2021)</div>
+  </div>
+
+
+
+  <div class="container-3">
+    
+    <div class="division-1">
+      <div class="division-2">
+        <p>youtube</p>
+      <p>Backend web development -a complete overview (2021)</p>
+      </div>
+      
+    </div>
+    
+  </div>
+
+</body>
+</html>

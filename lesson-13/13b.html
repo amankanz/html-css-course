@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nestedflexbox Practice</title>
+  <style>
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+    }
+    .item1 {
+      background-color: lightpink;
+      height: 40px;
+      width: 100px;
+    }
+    .item2 {
+      background-color: lightblue;
+      height: 40px;
+      width: 200px;
+    }
+    .item2-item3 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .row2 {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="flexbox">
+    <div class="item1">item1</div>
+    <div class="item2">
+      row1
+      <div class="item2-item3">
+        <div>
+          <p class="row2">row2</p>
+        </div>
+        <div>
+          <p class="row2">row2</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

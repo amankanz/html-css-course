@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Flexbox Practice</title>
+  <style>
+    p {
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .mail {
+      border-radius: 5px;
+      width: 420px;
+      box-shadow: 1px 1px 5px rgba(1, 1, 1, 0.3);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 7px;
+
+    }
+    .header {
+      font-family: Arial;
+      color: rgb(100, 100, 100);
+      margin-bottom: 15px;
+      
+    }
+    .sub-section {
+      display: flex;
+      flex-direction: row;
+    }
+    .picture {
+      
+      height: 60px;
+      width: 60px;
+      object-fit: cover;
+      border-radius: 35px;
+      margin-right: 10px;
+    }
+    .info {
+      width: 340px;
+    }
+    .info-header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .info-header-descript {
+      display: flex;
+      flex-direction: column;
+      line-height: 24px;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+      
+    }
+    .sub-title {
+      font-weight: bold;
+    }
+    .info-header-time {
+      font-family: Arial;
+      font-size: 14px;
+      color: rgb(100, 100, 100);
+      
+    }
+    
+    .info-bottom {
+      color: rgb(100, 100, 100);
+      font-size: 16px;
+      font-family: Arial;
+      margin-bottom: 25px;
+      margin-top: 2px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="mail">
+    <div class="header">ALL INBOXES</div>
+    <div class="sub-section">
+      
+      <img src="../lesson-07/thumbnails/hq720.webp" alt="" class="picture">
+
+
+      <div class="info">
+        <div class="info-header">
+          <div class="info-header-descript">
+            <p class="title">Chewy Promotions</p>
+            <p class="sub-title">Biggest sales of the year!</p>
+          </div>
+          <div class="info-header-time">
+            4:58 PM
+          </div>
+        </div>
+        <div class="info-bottom">
+          Hey there! We're writing to tell you about our...
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
