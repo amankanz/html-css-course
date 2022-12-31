@@ -1,0 +1,37 @@
+body {
+  height: 3000px;
+}
+.bottom-right {
+  background-color: gray;
+  color: white;
+  height: 180px;
+  width: 320px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.close-button {
+  position: absolute;
+  top: -18px;
+  left: -18px;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  font-family: Arial;
+  font-size: 20px;
+  cursor: pointer;
+}
+.video-time {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: black;
+  font-family: Arial;
+  font-size: 18px;
+  padding:5px 10px;
+}

@@ -1,0 +1,26 @@
+body {
+  height: 3000px;
+}
+
+.product-container {
+  position: relative;
+  background-color: gray;
+  display: inline-block;
+  
+}
+.product-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.promotion {
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 10px;
+  right: 0;
+
+  font-family: Arial;
+  font-size: 12px;
+  padding: 6px 10px;
+}

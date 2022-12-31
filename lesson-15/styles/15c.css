@@ -1,0 +1,29 @@
+body {
+  height: 3000px;
+}
+.bottom-right {
+  background-color: gray;
+  height: 180px;
+  width: 320px;
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.close-button {
+  position: absolute;
+
+  top: -18px;
+  left: -18px;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  font-family: Arial;
+  font-size: 16px;
+}
