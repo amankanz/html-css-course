@@ -8,7 +8,7 @@
   top: 0;
   right: 0;
   left: 0;
-
+  z-index: 100;
   background-color: white;
 
   border-bottom-style: solid;
@@ -98,6 +98,23 @@
 }
 .notifications-icon {
   height: 24px;
+}
+.notifications-icon-container {
+  position: relative;
+}
+.notifications-count {
+  position: absolute;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  top: -2px;
+  right: -5px;
+
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding: 2px 5px;
+  border-radius: 10px;
+
+  
 }
 .current-user-picture {
   height: 32px;

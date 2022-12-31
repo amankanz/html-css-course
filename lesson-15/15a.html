@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position Absolute and Relative</title>
+  <style>
+    body {
+      height: 3000px;
+    }
+    div {
+      position: relative;
+    }
+    .close-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    button {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 13px;
+      border-radius: 20px;
+      font-family: Arial;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="close-button">
+      <button>X</button>
+    </div>
+  </div>
+</body>
+</html>
