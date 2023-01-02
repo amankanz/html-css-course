@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challeng Exercise</title>
+  <style>
+    p {
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .profile-picture-container {
+      display: flex;
+      width: 210px;
+      border-radius: 10px;
+      box-shadow: 3px 1px 10px rgba(1, 1, 1, 0.3);
+      padding: 15px 16px;
+      
+    }
+    .profile-picture {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .image-profile {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+      
+    }
+    .author-channel-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 8px;
+    }
+    .author-name {
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+    .channel-info {
+      color: rgb(70, 70, 70);
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-picture-container">
+    <div class="profile-picture">
+      <img src="../lesson-07/thumbnails/hq720.webp" alt="" class="image-profile">
+    </div>
+    <div class="author-channel-info">
+      <p class="author-name">
+        Marques Brownlee
+      </p>
+      <p class="channel-info">
+        15M subscribers
+      </p>
+    </div>
+  </div>
+
+
+  <div class="tooltip-channel-picture">
+    <div class="profile-author-picture">
+      <img src="../lesson-07/thumbnails/hq720.webp" alt="" class="author-image">
+    </div>
+    <div class="author-channel-info">
+      <p class="author-name">
+        Marques Brownlee
+      </p>
+      <p class="channel-info">
+        15M subscribers
+      </p>
+    </div>
+  </div>
+</body>
+</html>
